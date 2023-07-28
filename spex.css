@@ -1,0 +1,59 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/1080p-Car-Desktop-Wallpaper.jpg');
+    background-size: cover;
+  }
+  
+  .questionnaire {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Whitish transparent box */
+    backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .questions-container {
+    margin-top: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .answers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .plus-btn {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .price-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Whitish transparent box */
+    backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .clear-cart-btn {
+  margin-top: 10px;
+  cursor: pointer;
+}
